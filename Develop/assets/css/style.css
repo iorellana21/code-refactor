@@ -1,16 +1,16 @@
-/* entire HTML page */
+/** entire HTML page config **/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* background color within body */
+/** background color inside body **/
 body {
     background-color: #d9dcd6;
 }
 
-/* header element */
+/** entire header config **/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -18,18 +18,18 @@ body {
     color: #ffffff;
 }
 
-/* h1 tag inside header element */
+/* h1 config inside <header> */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* used in span element to change color to 'seo' in Horiseon inside h1 */
+/* span config; change 'seo' color in Horiseon for <h1> inside header */
 .seo {
     color: orange;
 }
 
-/* nav link config inside header element */
+/* nav config inside <header> */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,14 +38,7 @@ body {
     font-size: 20px;
 }
 
-/* Not needed
-.header nav ul {
-    list-style-type: none;
-    display: inline-block;
-}
-*/
-
-/* nav list item placement inside header element */
+/* li config inside <header> */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -57,7 +50,7 @@ a {
     text-decoration: none;
 }
 
-/* config for meeting image inside figure element */
+/** img config inside <figure> **/
 .hero {
     height: 800px;
     width: 100%;
@@ -67,30 +60,44 @@ a {
     background-position: center;
 }
 
-/* text in p tag */
-p {
-    font-size: 16px;
-}
-
-/*  */
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-/*  */
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/*  */
+/** entire aside left config **/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/*  */
+/* consolidated - config for each <section> inside aside left */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* img config for SEO and SMM sections inside aside left */
+.float-left, .search-engine-optimization img, .social-media-marketing img{
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+/* img config for ORM section inside aside left */
+.float-right, .online-reputation-management img {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+/* consolidated - <h2> config for each <section> inside aside left */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/** entire right aside config **/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,127 +109,31 @@ p {
     background-color: #2589bd;
 }
 
-/**Consolidated**/
+/* consolidated - each <section> config inside right aside */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* Consolidating the two below into one^
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
-/**Consolidated**/
+/* consolidated - <h3> config for each <section> inside right aside */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Consolidating the two below into one^
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
-/**Consolidated**/
+/* consolidated - <img> config for each <section> inside right aside */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Consolidating the two below into one^
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
+/** <p> config for aside left and right aside **/
+p {
+    font-size: 16px;
 }
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
-/**Consolidated**/
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Consolidating the two below into one^
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-*/
-
-/**Consolidated**/
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
-    max-height: 200px;
-}
-
-/* Consolidating the two below into one^
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-*/
-
-/**Consolidated**/
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Consolidated the two below into one^
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
-
-/*  */
+/** <footer> config **/
 .footer {
     padding: 30px;
     clear: both;
@@ -230,7 +141,7 @@ p {
     text-align: center;
 }
 
-/*  */
+/* <h2> config inside <footer> */
 .footer h2 {
     font-size: 20px;
 }
