@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-/** background color inside body **/
+/** body background color **/
 body {
     background-color: #d9dcd6;
 }
@@ -18,18 +18,18 @@ body {
     color: #ffffff;
 }
 
-/* h1 config inside <header> */
+/* <h1> config inside header */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* span config; change 'seo' color in Horiseon for <h1> inside header */
+/* <span> config; change 'seo' color in Horiseon for <h1> inside header */
 .seo {
     color: orange;
 }
 
-/* nav config inside <header> */
+/* <nav> config inside header */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,19 +38,19 @@ body {
     font-size: 20px;
 }
 
-/* li config inside <header> */
+/* <li> config inside header */
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* href config */
+/* <a href> config */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/** img config inside <figure> **/
+/** <img> config inside figure **/
 .hero {
     height: 800px;
     width: 100%;
@@ -77,14 +77,14 @@ a {
     color: #ffffff;
 }
 
-/* img config for SEO and SMM sections inside aside left */
+/* <img> config for SEO and SMM sections inside aside left */
 .float-left, .search-engine-optimization img, .social-media-marketing img{
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
-/* img config for ORM section inside aside left */
+/* <img> config for ORM section inside aside left */
 .float-right, .online-reputation-management img {
     float: right;
     margin-left: 25px;
@@ -128,7 +128,7 @@ a {
     max-width: 150px;
 }
 
-/** <p> config for aside left and right aside **/
+/** <p> config for aside left & aside right **/
 p {
     font-size: 16px;
 }
