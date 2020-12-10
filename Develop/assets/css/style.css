@@ -5,32 +5,32 @@
     margin: 0;
 }
 
-/** body background color **/
+/** <body> background color **/
 body {
     background-color: #d9dcd6;
 }
 
-/** entire header config **/
-.header {
+/** <header> config **/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-/* <h1> config inside header */
-.header h1 {
+/* <h1> config inside <header> */
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* <span> config; change 'seo' color in Horiseon for <h1> inside header */
-.seo {
-    color: orange;
+span {
+    color: #d9dcd6;
 }
 
-/* <nav> config inside header */
-.header nav {
+/* <nav> config inside <header> */
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -38,8 +38,8 @@ body {
     font-size: 20px;
 }
 
-/* <li> config inside header */
-.header nav ul li {
+/* <li> config inside <header> */
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -50,8 +50,8 @@ a {
     text-decoration: none;
 }
 
-/** <img> config inside figure **/
-.hero {
+/** <img> config inside <figure> **/
+figure {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,14 +60,14 @@ a {
     background-position: center;
 }
 
-/** entire aside left config **/
-.content {
+/** <main> config **/
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* consolidated - config for each <section> inside aside left */
+/* config for each <section> inside <main> */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -77,28 +77,28 @@ a {
     color: #ffffff;
 }
 
-/* <img> config for SEO and SMM sections inside aside left */
+/* <img> config for SEO and SMM sections inside <main> */
 .float-left, .search-engine-optimization img, .social-media-marketing img{
     float: left;
     margin-right: 25px;
     max-height: 200px;
 }
 
-/* <img> config for ORM section inside aside left */
+/* <img> config for ORM section inside <main> */
 .float-right, .online-reputation-management img {
     float: right;
     margin-left: 25px;
     max-height: 200px;
 }
 
-/* consolidated - <h2> config for each <section> inside aside left */
+/* <h2> config for each <section> inside <main> */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/** entire right aside config **/
-.benefits {
+/** <aside> config **/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -109,32 +109,32 @@ a {
     background-color: #2589bd;
 }
 
-/* consolidated - each <section> config inside right aside */
+/* each <section> config inside <aside> */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* consolidated - <h3> config for each <section> inside right aside */
+/* <h3> config for each <section> inside <aside> */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* consolidated - <img> config for each <section> inside right aside */
+/* <img> config for each <section> inside <aside> */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/** <p> config for aside left & aside right **/
+/** <p> config for <main> and <aside> **/
 p {
     font-size: 16px;
 }
 
 /** <footer> config **/
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -142,6 +142,6 @@ p {
 }
 
 /* <h2> config inside <footer> */
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
