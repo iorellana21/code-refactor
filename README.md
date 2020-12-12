@@ -1,9 +1,9 @@
 # Code-Refactor
 
 ## Description
-Refactoring [Horiseon](https://github.com/iorellana21/code-refactor/blob/main/assets/images/01-html-css-git-homework-demo.png) website to make it more accessible.
+Refactoring [Horiseon](https://github.com/iorellana21/code-refactor/blob/main/assets/images/01-html-css-git-homework-demo.png) website to make it more accessible. (link to image attached)
 ## What Was Done
-Perfomed code-refactor on original-html and original-css files for Horiseon website - from restructuring order, updating tags, consolidating classes, correcting broken link.
+Performed code-refactor on original-html and original-css files for Horiseon website - from restructuring order, updating tags, consolidating classes, correcting broken link.
 
 #### 1. HTML
 * Apply correct indentation and spacing
