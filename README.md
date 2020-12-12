@@ -1,7 +1,9 @@
 # Code-Refactor
 
+## Description
+Refactoring Horiseon website to make it more accessible.
 ## What Was Done
-Perfomed code-refactor on original html and css files for Horiseon website - from restructuring order, updating tags, consolidating classes, correcting broken link.
+Perfomed code-refactor on original-html and original-css files for Horiseon website - from restructuring order, updating tags, consolidating classes, correcting broken link.
 
 #### 1. HTML
 * Apply correct indentation and spacing
@@ -12,7 +14,7 @@ Perfomed code-refactor on original html and css files for Horiseon website - fro
     * section
     * aside
     * footer
-* Add 'id' to line 36
+* Add 'id' to line 36 to make internal link work
 * Add 'alt' to all images
 * Add comments for each HTML semantic tag
 * Remove classes and have CSS file call on the HTML tag
@@ -20,27 +22,28 @@ Perfomed code-refactor on original html and css files for Horiseon website - fro
 #### 2. CSS
 * Ensure correct indentation has been applied
 * Reorder file to have a top-down format based off HTML
-* Consolidate classes that are applying the same format
+* Consolidate properties that are applying the same format
     * Example: .benefit-lead, .benefit-brand, .benefit-cost
-* Update classes that are referenced in HTML semantic tags to call the tag instead of a class 
+* Update CSS selectors to call HTML tag instead of a class 
     * Example: .header{} -> header{}
 * Rename .hero class to call &lt;figure&gt; tag
 * Add comments for each configuration
 
-## Before and After Pics
-
+## Before and After
 Original HTML              |      HTML Refactored
 :-------------------------:|:-------------------------:
-![]()  |  ![]()
+![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/original-html.png "OG HTML")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/html-refactored.png "Refactored HTML")
 
 
 Original CSS               |      CSS Refactored
 :-------------------------:|:-------------------------:
-![]()  |  ![]()
+![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/original-css.png "OG CSS")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/css-refactored.png "CSS Refactored")
 
 ## Links
-#### GitHub URL
-* 
-
 #### Live URL
-* 
+* https://iorellana21.github.io/code-refactor/
+#### GitHub URL
+* https://github.com/iorellana21/code-refactor
+
+#### HTML URL
+* https://github.com/iorellana21/code-refactor/blob/main/Develop/index.html
