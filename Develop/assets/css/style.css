@@ -24,7 +24,7 @@ header h1 {
     font-size: 48px;
 }
 
-/* <span> config; change 'seo' color in Horiseon for <h1> inside header */
+/* <span> config; change 'seo' color in Horiseon for <h1> inside <header> */
 span {
     color: #d9dcd6;
 }
