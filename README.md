@@ -47,3 +47,5 @@ Original CSS               |      CSS Refactored
 
 #### HTML URL
 * https://github.com/iorellana21/code-refactor/blob/main/Develop/index.html
+#### CSS URL
+* https://github.com/iorellana21/code-refactor/blob/main/Develop/assets/css/style.css
