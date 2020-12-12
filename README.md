@@ -38,6 +38,10 @@ Original CSS               |      CSS Refactored
 :-------------------------:|:-------------------------:
 ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/assets/images/original-css.png "OG CSS")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/assets/images/css-refactored.png "CSS Refactored")
 
+## Credits
+* [Stack Overflow](https://stackoverflow.com/) - building the table for Before and After
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - how to build README
+* [W3 HTML Validator](https://validator.w3.org/#validate_by_upload) - validating HTML
 ## Links
 #### Live URL
 * https://iorellana21.github.io/code-refactor/
