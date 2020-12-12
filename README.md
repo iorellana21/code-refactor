@@ -32,12 +32,12 @@ Perfomed code-refactor on original-html and original-css files for Horiseon webs
 ## Before and After
 Original HTML              |      HTML Refactored
 :-------------------------:|:-------------------------:
-![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/original-html.png "OG HTML")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/html-refactored.png "Refactored HTML")
+![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/assets/images/original-html.png "OG HTML")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/assets/images/html-refactored.png "Refactored HTML")
 
 
 Original CSS               |      CSS Refactored
 :-------------------------:|:-------------------------:
-![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/original-css.png "OG CSS")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/Develop/assets/images/css-refactored.png "CSS Refactored")
+![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/assets/images/original-css.png "OG CSS")  |  ![alt text](https://raw.githubusercontent.com/iorellana21/code-refactor/main/assets/images/css-refactored.png "CSS Refactored")
 
 ## Links
 #### Live URL
@@ -46,6 +46,6 @@ Original CSS               |      CSS Refactored
 * https://github.com/iorellana21/code-refactor
 
 #### HTML URL
-* https://github.com/iorellana21/code-refactor/blob/main/Develop/index.html
+* https://github.com/iorellana21/code-refactor/blob/main/index.html
 #### CSS URL
-* https://github.com/iorellana21/code-refactor/blob/main/Develop/assets/css/style.css
+* https://github.com/iorellana21/code-refactor/blob/main/assets/css/style.css
